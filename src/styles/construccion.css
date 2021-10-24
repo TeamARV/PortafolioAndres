@@ -1,11 +1,90 @@
 
-.construccion {
-    background-image:url('https://www.canalsurpatagonia.cl/wp-content/uploads/2021/06/17536-blanco-liso.jpg');
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+.fondo   {
+    background-color: whitesmoke;
+    background-size: cover;
+    /* height: 100vh; */
+    background-attachment: fixed;
+/*      background-color:rgba(10, 9, 9, 0.01);
+     background-blend-mode:saturation;  */
     align-items: center;
     text-align:center;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto; 
+
+    margin-top: 128px;
     
+
+    
+}
+
+.fondo .container-fluid {
+    background-color:whitesmoke;
+    font-size: 1.2em;
+    padding: 0.4%;
+    border-radius: 4%;
+    align-items: center;
+    text-align:center;
+    margin-left: 16%;
+    margin-right: 16%;
+    
+   
+
+}
+
+.proyectos{
+    padding: 5%;
+    background-color: whitesmoke;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.proyectos .card{ 
+    border-color: black;
+    border-radius: 12%;
+    box-shadow: black;
+    border:100px;
+  
+}
+
+.img-fluid { 
+    border-radius: 3%; 
+    box-shadow: black;
+ 
+}
+
+.nav{
+    height: 94vh;
+    padding: 1%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 2.5em;
+    height: 10vh;
+    text-align: center;
+}
+
+.social-item {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #8e8e8e;
+    border-radius: 32px;
+}
+
+.social-icons i {
+    width: 100%;
+    font-size: 1.4em;
+    color: #8e8e8e;
+    padding: 12px 0;
+}
+
+.social-item:hover {
+    border: 1px solid #5e5e5e;
+}
+
+.social-icons i:hover {
+    color: #5e5e5e;
 }
 
