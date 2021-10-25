@@ -23,9 +23,11 @@ function Index() {
   
         
         <div className="construccion ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-#22222 fixed-top ">
+          
   <div class="container-fluid ">
-    <a class="navbar-brand " href="#">🖳 Andrés Rivera Vega  </a>
+
+    <a class="navbar-brand " href="#">💻 Andrés Rivera Vega  </a>
     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  >
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -51,74 +53,78 @@ function Index() {
     </div>
   </div>
 </nav>
-            <div id='seccion3'>
-        {/* <img src="https://i.imgur.com/H2YvScF.png"  class="img-fluid" alt="Responsive image"/> */}
+            
+            
+            <div id='seccion3' className="me">
+            
+        <div className="contenedorz">
         <blockquote class="blockquote"><p>Ingeniero Mecatrónico | Human | Desarrollador Software</p></blockquote>
-        
         <img src="https://i.imgur.com/wOjrfOT.png" class="img-fluid" alt="Responsive image" /> 
-        
-        
-        
-        
         </div>
+        </div>
+        </div> 
 
+
+<div className="skills"> 
         <blockquote class="blockquote"><p>| Mis Skills  | </p></blockquote>    
         <img src="https://i.imgur.com/v9FzIjY.png" class="img-fluid" alt="Responsive image" /> 
+</div>
         
 
-        
-        </div> 
         
 
 <div id='seccion2' className="proyectos">
 
-        <div class="row">
-  <div class="col-sm-6">
+<div class="row">
+  <div class="col-sm-6 contenedorz">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" /> 
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" />   
+        <a href="#" class="btn btn-light">Go somewhere</a>
       </div>
     </div>
-    <hr/>
+   
   </div>
   {/* asdfasdf */}
-  <div class="col-sm-6">
+  
+  <div class="col-sm-6 contenedorz">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" /> 
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-light">Go somewhere</a>
       </div>
     </div>
-    <hr/>
+    
+  </div>
+  
+  {/* asdfasdf */}
+  <div class="col-sm-6 contenedorz">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" /> 
+        <a href="#" class="btn btn-light">Go somewhere</a>
+      </div>
+    </div>
+    
   </div>
   {/* asdfasdf */}
-  <div class="col-sm-6">
+  
+  <div class="col-sm-6 contenedorz">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" /> 
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-light">Go somewhere</a>
       </div>
     </div>
-    <hr/>
-  </div>
-  {/* asdfasdf */}
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <img src="https://i.imgur.com/oswt6cH.png" class="img-fluid" alt="Responsive image" /> 
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-    <hr/>
+    
   </div>
 
  
@@ -134,14 +140,16 @@ function Index() {
  
 <div id='seccion1'>
 
-        <ul class="nav justify-content-center bg-dark">
+
+        <ul class="nav justify-content-center ">
+        
           
   
 
-  {/* <li class=" class=nav-item col-sm-2 margin-botton"><span> hecho en 👨‍💻🇨🇴</span></li> */}
+  
 
 
-  <div className="social-icons col-sd-12">
+  <div className="social-icons col-md-6">
                         <a href="#" className="social-item"><i className="fab fa-twitter"></i></a>
                         <a href="#" className="social-item"><i className="fab fa-facebook-square"></i></a>
                         <a href="#" className="social-item"><i className="fab fa-instagram-square"></i></a>
@@ -155,11 +163,19 @@ function Index() {
   
 
                    <div className="perfil">
+                   <span class="text-white">Hecho en Colombia en 🇨🇴</span>
                     <img src={perfil} class="img-fluid" alt="Responsive image" />
+                    
                     </div>
 
 </ul>
+
 </div>
+
+
+
+
+
 
         </div>
         
