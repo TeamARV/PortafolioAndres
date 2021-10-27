@@ -1,4 +1,4 @@
-/* import { Link } from 'react-router-dom';  */
+import { Link } from 'react-router-dom';  
 import "../styles/construccion.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle"
@@ -15,7 +15,7 @@ function Index() {
   
         
         <div className="construccion ">
-        <nav className="navbar navbar-expand-lg navbar-light bg-#22222 fixed-top ">
+        <nav className="navbar navbar-expand-lg navbar-light  fixed-top ">
           
   <div className="container-fluid ">
 
@@ -61,9 +61,44 @@ function Index() {
 
 
 <div className="skills"> 
+
+<div className="text-center">
+
+<div className="row ">
+<span className="h1 text-white"> <strong>Mis Skills</strong> </span>
+
+
+</div>
+<hr />
+  
+<div className="row cajaskills">
+<div className="col-4">
+<img  src="https://i.imgur.com/REUgNY1.png" className="img-fluid" alt="Responsive image" />   
+<img  src="https://i.imgur.com/ck0QTYN.png" className="img-fluid" alt="Responsive image" /> 
+<img  src="https://i.imgur.com/Qa7kJMD.png" className="img-fluid" alt="Responsive image" /> 
+
+
+</div>
+
+<div className="col-4">
+<img  src="https://i.imgur.com/zIvolc5.png" className="img-fluid" alt="Responsive image" />   
+<img  src="https://i.imgur.com/wZkeVG7.jpg" className="img-fluid" alt="Responsive image" /> 
+<img  src="https://i.imgur.com/dnn4ouM.png" className="img-fluid" alt="Responsive image" /> 
+
+</div>
+
+
+<div className="col-4">
+<img  src="https://i.imgur.com/4zdVUhV.png" className="img-fluid" alt="Responsive image" />   
+<img  src="https://i.imgur.com/6XrNdjc.png" className="img-fluid" alt="Responsive image" /> 
+<img  src="https://i.imgur.com/NKdLSN2.png" className="img-fluid" alt="Responsive image" /> 
+
+</div>
+</div>
+<hr />
+</div>
         
-<blockquote className="blockquote"><span><strong>| Mis Skills  |</strong> </span> </blockquote>
-        <img src="https://i.imgur.com/v9FzIjY.png" className="img-fluid" alt="Responsive image" /> 
+
 
 
         <div className="sliderr2 ">
@@ -77,7 +112,7 @@ function Index() {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://i.imgur.com/lm9Gfs0.jpg" class="d-block w-100 .img-fluid" alt="Responsive image"/>
+      <img src="https://i.imgur.com/LyADIaq.jpeg" class="d-block w-100 .img-fluid" alt="Responsive image"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
@@ -91,7 +126,7 @@ function Index() {
       </div>
     </div>
     <div class="carousel-item">
-      <img  src="https://i.imgur.com/lxHy8Qk.jpg" class="d-block w-100 .img-fluid" alt="Responsive image"/>
+      <img  src="https://i.imgur.com/Jvh1OQm.jpeg" class="d-block w-100 .img-fluid" alt="Responsive image"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -114,71 +149,67 @@ function Index() {
 
 
 
-
-
-
-
-
         
 
 <div id='seccion2' className="proyectos">
 
+<div className="  text-center">
+
 <div className="row">
-  <div className="col-sm-6 contenedorz">
-    <div className="card">
+
+<span className="h1 text-success text-light"> <strong>Proyectos </strong> </span>
+<span className="h1"><i class="fas fa-laptop-code text-light "></i></span>
+
+</div>
+<hr />
+  
+<div className="row">
+<div className="col-6">  
+
+
+<div className="card contenedorz">
       <div className="card-body">
       <span className="card-title"> <strong>Proyecto N°1</strong></span>
         <p className="card-text">Reimaginacion y clon rappi.</p>
-        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" />   
-        <a href="#" className="btn btn-light">Go somewhere</a>
+        <img src="https://i.imgur.com/oBdgrc9.png" className="img-fluid" alt="Responsive image" />
+        <br /><br />   
+        <a href="https://teamarv.github.io/MyCloneRappy/" className="btn btn-light">Ir Proyecto 1!</a>
       </div>
-    </div>
-   
-  </div>
-  {/* asdfasdf */}
-  
-  <div className="col-sm-6 contenedorz">
-    <div className="card">
-      <div className="card-body">
-        <span className="card-title"> <strong>Proyecto N°2</strong></span>
-        <p className="card-text">algoaldskjfalskdjlkasjdf</p>
-        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" /> 
-        <a href="#" className="btn btn-light">Go somewhere</a>
       </div>
-    </div>
-    
-  </div>
-  
-  {/* asdfasdf */}
-  <div className="col-sm-6 contenedorz">
-    <div className="card">
+
+
+      <div className="card">
       <div className="card-body">
       <span className="card-title"> <strong>Proyecto N°3</strong></span>
-        <p className="card-text">algoaldskjfalskdjlkasjdf</p>
-        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" /> 
-        <a href="#" className="btn btn-light">Go somewhere</a>
+        <p className="card-text">Reimaginacion y clon rappi.</p>
+        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" />
+        <br /><br />   
+        <a href="#" className="btn btn-light">Ir Proyecto 3!</a>
       </div>
-    </div>
-    
-  </div>
-  {/* asdfasdf */}
+      </div>
 
-  
-  
-  <div className="col-sm-6 contenedorz">
-    <div className="card">
+</div>
+
+<div className="col-6">
+
+<div className="card">
       <div className="card-body">
-      <span className="card-title"> <strong>Proyecto N°4</strong></span>
-        <p className="card-text">algoaldskjfalskdjlkasjdf</p>
-        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" /> 
-        <a href="#" className="btn btn-light">Go somewhere</a>
+      <span className="card-title"> <strong>Proyecto N°2</strong></span>
+        <p className="card-text">asdfasdfasdf.</p>
+        <img src="https://i.imgur.com/ixuN13e.jpg" className="img-fluid" alt="Responsive image" />
+        <br /> <br />  
+        <a href="#" className="btn btn-light">Ir Proyecto 2!</a>
       </div>
-    </div>
-    
-  </div>
-
+      </div>
  
 </div>
+
+
+</div>
+<hr />
+</div>
+    
+
 
 </div>
        

@@ -32,7 +32,8 @@
 }
 
 .me{
-    padding-top: 13%;
+    margin-top: 100px;
+    padding-top: 10%;
 }
 
 .skills{
@@ -71,12 +72,21 @@
 
 .navbar{
     /* height: 1vh;  */
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     padding: 3%;
+    height: 100px;
     background-color:#222222;
   
+}
+
+.navbar-toggler{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
     
-   
- 
 }
 
 .nav{
@@ -145,4 +155,23 @@
     
     
 }
+
+.cajaskills{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+     
+}
+
+.cajaskills .img-fluid{
+    padding: 5%;
+    border-radius: 20%;
+  
+    
+}
+
+
+
 
